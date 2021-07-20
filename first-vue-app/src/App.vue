@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <router-link to="/databindingcheckbox">DataBindingCheckbox</router-link>
+    <router-link to="/DataBindingCheckbox2">DataBindingCheckbox2</router-link>
   </div>
   <router-view/>
 </template>
