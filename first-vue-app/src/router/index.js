@@ -2,12 +2,24 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import DataBindingCheckbox from '../views/DataBindingCheckbox.vue'
 import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
+import BindingButton from '../views/BindingButton.vue'
+import BindingClass from '../views/BindingClass.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/bindingclass',
+    name: 'BindingClass',
+    component: BindingClass
+  },
+  {
+    path: '/bindingbutton',
+    name: 'BindingButton',
+    component: BindingButton
   },
   {
     path: '/databindingcheckbox',
